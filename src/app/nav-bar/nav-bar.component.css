@@ -1,0 +1,67 @@
+header {
+  /* height: 70px; */
+  width: 100%;
+  opacity: 85%;
+  /* background-color: #121212; */
+
+}
+
+.logo img{
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  cursor: pointer;
+
+}
+img:hover{
+  transform: translateY(3px);
+  transition: 0.5s;
+}
+
+header:hover {
+  opacity: 100%;
+  transition: 0.7s;
+}
+
+nav {
+  background-color: rgb(97, 231, 177);
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.Navlist{
+  list-style: none;
+  display: flex;
+  align-items: center;
+
+}
+.Navlist li {
+
+  /*padding: 5px; */
+  align-items: center;
+
+}
+
+.Navlist li a {
+
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+.Navlist li a:hover {
+  background-color: rgb(40, 179, 123);
+  text-align: center;
+  transform: translateY(3px);
+  transition: 0.8s;
+
+
+}
+
