@@ -31,6 +31,18 @@ nav {
   align-items: center;
 
 }
+.firstPart{
+  display: flex;
+
+}
+
+.heading{
+  align-items: center;
+}
+
+.heading h1{
+  font-size: xx-large;
+}
 
 .Navlist{
   list-style: none;
